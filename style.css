@@ -431,6 +431,7 @@ header{
     margin-bottom: 10px;    
     color:white;
     text-align: justify;
+    padding:0 10px;
 }
 .portfolio-overlay .bx{
     font-size: 24px;
