@@ -440,6 +440,7 @@ header{
 .portfolio-overlay .bx:hover{
     background: #546eff;
     transition: 0.3s all linear;
+    color:white;
 }
 .portfolio-box:hover .portfolio-overlay{
     top: 0;
