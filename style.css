@@ -605,6 +605,9 @@ header{
 }
 
 @media(max-width: 600px) {
+    body{
+        overflow:hidden;
+    }
     section {
         position: relative; /* Remove sticky position */
     }
