@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +14,8 @@
 </head>
 
 <body>
+    <div id="progressBar"></div>
+
     <!-- header -->
     <!-- <header>
         <div class="nav container">
@@ -307,3 +310,16 @@
 </body>
 
 </html>
+
+
+<script>
+    window.onscroll = function() {updateProgressBar()};
+
+function updateProgressBar() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+</script>
