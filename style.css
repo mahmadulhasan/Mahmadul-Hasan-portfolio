@@ -369,8 +369,6 @@ header{
 .portfolio{
     
     min-height: 100vh;
-    height: 100vh;
-    max-height: 100vh;
 }
 .portfolio-content{
     display: grid;
