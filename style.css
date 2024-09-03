@@ -275,7 +275,9 @@ header{
 }
 
 
-
+.about p{
+    text-align: justify;
+}
 .heading{
     font-size: 5rem;
     text-transform: uppercase;
