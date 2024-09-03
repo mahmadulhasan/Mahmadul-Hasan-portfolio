@@ -37,22 +37,27 @@
 
     
 } 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
-}
+/* Progress bar at the top */
+#progressBar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    z-index: 9999;
+  }
+  
+  /* Hide the default scrollbar */
+  body {
+    overflow-y: scroll;
+  }
+  
+  /* Optional: Style the rest of your page */
+  body::-webkit-scrollbar {
+    width: 0; /* Remove the scrollbar width */
+  }
+  
 img{
     width: 100%;
 }
