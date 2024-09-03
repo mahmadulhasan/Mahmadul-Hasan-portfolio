@@ -627,6 +627,7 @@ header{
         grid-template-columns: repeat(1,1fr);
     }
     .btn2{
-        width: fit-content;
+        width: 350;
+        font-size: 1rem;
     }
 }
