@@ -313,6 +313,7 @@ header{
     box-shadow: 5px 10px 10px 5px rgba(135, 137, 137, 0.86);
     border-radius: 10px;
     padding: 20px;
+    color:white !important;
 }
 .about-data h2{
     font-size: 2rem;
