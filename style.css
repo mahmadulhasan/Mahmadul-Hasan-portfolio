@@ -309,8 +309,8 @@ header{
     margin-top: 2rem;
 }
 .about-data {
-    background: rgba(251, 248, 250, 0.9);
-    box-shadow: 5px 10px 10px 5px rgba(227, 229, 229, 0.8);
+    background: rgba(68, 145, 149, 0.86);
+    box-shadow: 5px 10px 10px 5px rgba(135, 137, 137, 0.86);
     border-radius: 10px;
     padding: 20px;
 }
@@ -339,8 +339,8 @@ header{
     transition: 0.3s all linear;
 }
 .about-text{
-    background: rgba(251, 248, 250, 0.9);
-    box-shadow: 5px 10px 10px 5px rgba(227, 229, 229, 0.8);
+    background: rgba(68, 145, 149, 0.86);
+    box-shadow: 5px 10px 10px 5px rgba(135, 137, 137, 0.86);
     border-radius: 10px;
     padding: 20px;
 }
