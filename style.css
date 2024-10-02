@@ -272,6 +272,9 @@ header{
 /* about */
 .about {
     min-height: 100vh;
+    background-image: url("img/office.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
