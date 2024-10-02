@@ -304,7 +304,7 @@ header{
     margin-top: 2rem;
 }
 .about-data {
-    background: rgba(251, 248, 250, 0.62);
+    background: rgba(251, 248, 250, 0.8);
     border-radius: 10px;
     padding: 20px;
 }
@@ -333,9 +333,12 @@ header{
     transition: 0.3s all linear;
 }
 .about-text{
-    background: rgba(251, 248, 250, 0.62);
+    background: rgba(251, 248, 250, 0.8);
     border-radius: 10px;
     padding: 20px;
+}
+.about-text h2{
+    color:rgba(6, 239, 251, 0.8);
 }
 .about-text p{
     font-size: 0.938rem;
